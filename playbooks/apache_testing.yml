@@ -6,3 +6,4 @@
       apt: name=apache2 update_cache=yes state=latest
     - name: apache status
       service: name=apache2 state=running enabled=yes
+
